@@ -19,12 +19,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.20.6, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.21.0, @babel/runtime@npm:^7.25.7":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.20.6, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.21.0":
   version: 7.25.7
   resolution: "@babel/runtime@npm:7.25.7"
   dependencies:
     regenerator-runtime: ^0.14.0
   checksum: 1d6133ed1cf1de1533cfe84a4a8f94525271a0d93f6af4f2cdae14884ec3c8a7148664ddf7fd2a14f82cc4485904a1761821a55875ad241c8b4034e95e7134b2
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.26.0":
+  version: 7.26.0
+  resolution: "@babel/runtime@npm:7.26.0"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: c8e2c0504ab271b3467a261a8f119bf2603eb857a0d71e37791f4e3fae00f681365073cc79f141ddaa90c6077c60ba56448004ad5429d07ac73532be9f7cf28a
   languageName: node
   linkType: hard
 
@@ -1634,73 +1643,65 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity@npm:^1.0.83":
-  version: 1.0.83
-  resolution: "@wix/identity@npm:1.0.83"
+"@wix/identity@npm:^1.0.104":
+  version: 1.0.105
+  resolution: "@wix/identity@npm:1.0.105"
   dependencies:
-    "@wix/identity_authentication": 1.0.13
-    "@wix/identity_oauth": 1.0.11
-    "@wix/identity_recovery": 1.0.11
-    "@wix/identity_verification": 1.0.11
-  checksum: 9cf6e446dd55995c7080d21014df561901e4661c1eb81a9bc3e20d6ff329f00388954e8a05288105627639ed6bf1c47c9f92e2ddea53c5b86d33201570cd3090
+    "@wix/identity_authentication": 1.0.27
+    "@wix/identity_oauth": 1.0.16
+    "@wix/identity_recovery": 1.0.18
+    "@wix/identity_verification": 1.0.18
+  checksum: 5e116a258ee3b7b12d33f63d3fe8f2076706688612f693548ea14dc54f9124d240d2fffb4ba97847760c756328e524386568b1d09e0ea2565f06a9e35b17807a
   languageName: node
   linkType: hard
 
-"@wix/identity_authentication@npm:1.0.13":
-  version: 1.0.13
-  resolution: "@wix/identity_authentication@npm:1.0.13"
+"@wix/identity_authentication@npm:1.0.27":
+  version: 1.0.27
+  resolution: "@wix/identity_authentication@npm:1.0.27"
   dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.2.10
-    "@wix/sdk-types": ^1.5.11
-  checksum: c847b8ca02c77463a17d6d41b146e659dd6a551ed858d64e871948a57ad81077fdab79de26923c9218aeb05fc95adbffa5a1c3403ea1982504fe3c5e4a257f81
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: eb0623084bce5458780ea0029818034ab8d661172cf76728aea176674eb9c064df8a5d22919735b96272467da0d69ade5f7e6c969cab78370a7a4687243b2a31
   languageName: node
   linkType: hard
 
-"@wix/identity_oauth@npm:1.0.11":
-  version: 1.0.11
-  resolution: "@wix/identity_oauth@npm:1.0.11"
+"@wix/identity_oauth@npm:1.0.16":
+  version: 1.0.16
+  resolution: "@wix/identity_oauth@npm:1.0.16"
   dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.2.10
-    "@wix/sdk-types": ^1.5.11
-  checksum: 6c74176ab0bf9be055861ad175fb1c31e1eb7ff546378a9dae8cf37e08cf78d5079188756c0f037936d714782058e816c3f69644a1a6b0230ba1746cf2faa6b2
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 9cdc4b11999d7dedcf05dbf2786823fdd0f5aab7d0b5cf142aaa746875581bd28408d485266a9330b4163ea262a19d80b155924d673ca66b6189f543befc3d46
   languageName: node
   linkType: hard
 
-"@wix/identity_recovery@npm:1.0.11":
-  version: 1.0.11
-  resolution: "@wix/identity_recovery@npm:1.0.11"
+"@wix/identity_recovery@npm:1.0.18":
+  version: 1.0.18
+  resolution: "@wix/identity_recovery@npm:1.0.18"
   dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.2.10
-    "@wix/sdk-types": ^1.5.11
-  checksum: 310934c3ebdc16189efc02bc23c976b3e823227bb035204c14c08719bd01c57ab901f1cb66880c343f74aa181f5572eacd8c5b50b1fe08ea9b913192bae3d0a5
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: b107ef58188dce6fdb11c01a59884ab2717552d5db4543557ef9afaabae49f1237da9121e9903b28a1df92e73681c02d5af8f71ea0f568144a56a942ee0cdc66
   languageName: node
   linkType: hard
 
-"@wix/identity_verification@npm:1.0.11":
-  version: 1.0.11
-  resolution: "@wix/identity_verification@npm:1.0.11"
+"@wix/identity_verification@npm:1.0.18":
+  version: 1.0.18
+  resolution: "@wix/identity_verification@npm:1.0.18"
   dependencies:
-    "@wix/metro-runtime": ^1.1792.0
-    "@wix/motion-edm-autogen-query-wrapper": ^1.0.37
-    "@wix/sdk-runtime": ^0.2.10
-    "@wix/sdk-types": ^1.5.11
-  checksum: 6f33bd0a5f8586cc04566d3c52024f7ac6fdc32d3289ac2951fe27f01af0488e76f2a8099b5c642a4196dedb5cfd3fedd35ddaaba0a9b879c910389d96f1cba1
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: d05912d210ebe89bc791c66c4ead02eb54f8dfafb95d77d2c3e9ea9e085f2c92debaf40045fdc7d585c26636a878f7be107dce913ec6e4fd54a021c807e71bf9
   languageName: node
   linkType: hard
 
-"@wix/image-kit@npm:^1.92.0":
-  version: 1.92.0
-  resolution: "@wix/image-kit@npm:1.92.0"
+"@wix/image-kit@npm:^1.102.0":
+  version: 1.102.0
+  resolution: "@wix/image-kit@npm:1.102.0"
   dependencies:
-    "@babel/runtime": ^7.25.7
-    tslib: ^2.8.0
-  checksum: 80954860bc47f54625b09ea474eb7fb9557c75de1c44722d6d7676854c68ac6ef6c4f6ee5fdf68a4561bc454e51b68d9fd4ebfd253ce4bb7fa3eff251900d719
+    "@babel/runtime": ^7.26.0
+    tslib: ^2.8.1
+  checksum: ed0f1dbc1bbe6d2d608b590924f35796c24bb51a99f8a7d0e1198dd2a0a380a45b971ec86aaffe6ac484bf071702b60f4ed1f9b0969f487c2849e58a2d31554c
   languageName: node
   linkType: hard
 
@@ -1725,6 +1726,13 @@ __metadata:
     lodash: ^4.17.21
     querystring: ^0.2.1
   checksum: dec92e07129b61b949f7421c15dc16519916ecc904035ee1c30a913a01eff326e670c14d943f531915e3ecd6dcf3d251cb007dfc628e14baca522e8489355a8e
+  languageName: node
+  linkType: hard
+
+"@wix/monitoring-types@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@wix/monitoring-types@npm:0.1.0"
+  checksum: cfaf7415e11b924e86034f405217b6be27e88b6d8fa9263e24777beb392acbd98fe46adeb1bbf6079aff1728965106209232771bf50fd57bca9144414f5a1f60
   languageName: node
   linkType: hard
 
@@ -1844,12 +1852,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/redirects@npm:^1.0.13, @wix/redirects@npm:^1.0.58":
+"@wix/redirects@npm:^1.0.13":
   version: 1.0.58
   resolution: "@wix/redirects@npm:1.0.58"
   dependencies:
     "@wix/redirects_redirects": 1.0.28
   checksum: 4957b61ac4a34b2497c09cbf0e55e4e330e8ff5434757ee83b1cc248c7c731aabefc03dc133d5114d5e6d6bfd7677fab45f8f1b74d7ccd9cfc231efe8e37a575
+  languageName: node
+  linkType: hard
+
+"@wix/redirects@npm:^1.0.70":
+  version: 1.0.70
+  resolution: "@wix/redirects@npm:1.0.70"
+  dependencies:
+    "@wix/redirects_redirects": 1.0.39
+  checksum: f4ff7e08225a9cc439312914a42bd3cb088a1ff438fafc15ffa5a74e175cc9ebd728ff6d097de1094dd439e84d8cc49813a3001331ddf5ac89d5c09ff2ae2f1b
   languageName: node
   linkType: hard
 
@@ -1865,6 +1882,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wix/redirects_redirects@npm:1.0.39":
+  version: 1.0.39
+  resolution: "@wix/redirects_redirects@npm:1.0.39"
+  dependencies:
+    "@wix/sdk-runtime": ^0.3.22
+    "@wix/sdk-types": ^1.12.4
+  checksum: 66033ee106812e596865cc3a7dfd1a34f8fd231da5cb3666cc1c3962f117fa038417200481fb5428a967c92c25b6c5aec5ba522d3206210d41281dcad4a798b5
+  languageName: node
+  linkType: hard
+
 "@wix/sdk-context@npm:^0.0.1":
   version: 0.0.1
   resolution: "@wix/sdk-context@npm:0.0.1"
@@ -1872,22 +1899,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-runtime@npm:0.3.22":
-  version: 0.3.22
-  resolution: "@wix/sdk-runtime@npm:0.3.22"
+"@wix/sdk-runtime@npm:0.3.30":
+  version: 0.3.30
+  resolution: "@wix/sdk-runtime@npm:0.3.30"
   dependencies:
     "@wix/sdk-context": ^0.0.1
-    "@wix/sdk-types": ^1.12.4
-  checksum: 12b8ec1ce4afa30cd48948f9e3bc6f80b30f38b90bb49ccc33e6ca4f7bab11e34c6715f280e3150c9b78ffe194b5ccc394618fb93c75c806422e49f767cd7ca0
-  languageName: node
-  linkType: hard
-
-"@wix/sdk-runtime@npm:^0.2.10":
-  version: 0.2.12
-  resolution: "@wix/sdk-runtime@npm:0.2.12"
-  dependencies:
-    "@wix/sdk-types": ^1.7.0
-  checksum: 9f116186f891e16d439da2bbbac0f94876deb21c73b8ddf0a533454bfac9283dafc7a00117d075990b12dd5362b45be5905f31184d7b3893a5c25bde1d2f2c33
+    "@wix/sdk-types": ^1.13.1
+  checksum: 82d811a63f27b301eac95ae40353bb95a5daab3abe1b649cceba05708692ff712b6a50b7266d44d799debe9d07cc61049a7b9e68cdddecdd71fe892357e814cc
   languageName: node
   linkType: hard
 
@@ -1911,7 +1929,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:^1.12.3, @wix/sdk-types@npm:^1.5.11, @wix/sdk-types@npm:^1.7.0, @wix/sdk-types@npm:^1.9.2":
+"@wix/sdk-types@npm:^1.12.3, @wix/sdk-types@npm:^1.9.2":
   version: 1.12.3
   resolution: "@wix/sdk-types@npm:1.12.3"
   checksum: 2fdcd46f720d08eba0cecc0fa9bb799797620134adcbfbe7886a5e3733e1cd2544a6a7ca554e859ed4fa48081c15c7eecf1c308b5afbb61f1b23a65debf14445
@@ -1925,23 +1943,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk@npm:^1.5.0":
-  version: 1.14.2
-  resolution: "@wix/sdk@npm:1.14.2"
+"@wix/sdk-types@npm:^1.13.1":
+  version: 1.13.1
+  resolution: "@wix/sdk-types@npm:1.13.1"
   dependencies:
-    "@wix/identity": ^1.0.83
-    "@wix/image-kit": ^1.92.0
-    "@wix/redirects": ^1.0.58
+    "@wix/monitoring-types": ^0.1.0
+  checksum: 01b4f95c022b33b538d204e7e52fc6f32c9d9078c29917ffcef8cbeac3c309b1b525728daec8783b6c75d813c484d7611706af42ee64afcaf94d9b65ea41ddf9
+  languageName: node
+  linkType: hard
+
+"@wix/sdk@npm:^1.5.0":
+  version: 1.15.8
+  resolution: "@wix/sdk@npm:1.15.8"
+  dependencies:
+    "@wix/identity": ^1.0.104
+    "@wix/image-kit": ^1.102.0
+    "@wix/redirects": ^1.0.70
     "@wix/sdk-context": ^0.0.1
-    "@wix/sdk-runtime": 0.3.22
-    "@wix/sdk-types": ^1.12.4
+    "@wix/sdk-runtime": 0.3.30
+    "@wix/sdk-types": ^1.13.1
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     jose: ^5.9.6
-    type-fest: ^4.26.1
+    type-fest: ^4.32.0
   dependenciesMeta:
     graphql:
       optional: true
-  checksum: 1c368c7bf60385e383f1f188e6225db5fe2cc5ba5d335d5a44386245b3afac510756a7926513fbdd7c27fd9687990797af779dc63d97684770239fd4c7b1490d
+  checksum: 44231e66e0e0ae3bd0f39a9489194fe3affdf805922fbc6e9252ad41215453d227f189c127574f9df9065df49a23e36fc4819f1281ee99393b04dc6c2aee9315
   languageName: node
   linkType: hard
 
@@ -7021,7 +7048,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.8.0":
+"tslib@npm:^2.8.1":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
@@ -7053,10 +7080,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-fest@npm:^4.26.1":
-  version: 4.26.1
-  resolution: "type-fest@npm:4.26.1"
-  checksum: 7188db3bca82afa62c69a8043fb7c5eb74e63c45e7e28efb986da1629d844286f7181bc5a8185f38989fffff0d6c96be66fd13529b01932d1b6ebe725181d31a
+"type-fest@npm:^4.32.0":
+  version: 4.32.0
+  resolution: "type-fest@npm:4.32.0"
+  checksum: 0010e2fbe040e46f9d3a76a97e8917e5f0c9a5d7883529a3916fac5c2d2638429864b7dfc083d2c7883894e3c8cee026f91d0301c64fa74c1c0c2dafb488e3c6
   languageName: node
   linkType: hard
 
